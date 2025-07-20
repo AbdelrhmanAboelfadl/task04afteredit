@@ -1,0 +1,308 @@
+*{
+     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.contanier1{
+    background-color: #3e3e3e;
+    height: 100vh;
+}
+nav{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 140px;
+    border-bottom: 1px  solid white;
+}
+.navContanier{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+.navImg{
+    width: 15%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.navImg img{
+    width: 70%;
+    padding: 5px;
+}
+.navLinks{
+    width: 30%;
+    height: 100%;
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.listContanier{
+    width: 100%;
+    height: 70%;
+    margin: auto;
+    text-align: center;
+}
+.listContanier ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top:40px;
+    margin-right: 5px;
+    padding: 0px 20px 0px 20px;
+}
+.listContanier ul li a{
+    text-decoration: none;
+    padding: 0px;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+.logoHome{
+    width: 800px;
+    height: 700px;
+    margin: auto;
+    position: relative;
+    top: 250px;
+    text-align: center;
+}
+.logoHome h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    font-weight: 100;
+    color: white;
+    margin-bottom: 10px;
+}
+.logoHome p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+.about{
+    height: 60vh;
+    background-color: #73281a;
+}
+.aboutContanier{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+.aboutText{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.aboutImg{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.aboutText .text{
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    margin-top: 70px;
+    text-align: center
+}
+.aboutText .text h2{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 55px;
+    font-weight: 100;
+    color: white;
+    margin-bottom: 20px;
+}
+.aboutText .text p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.aboutText .text p:nth-of-type(2){
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 17px;
+    color:white;
+    line-height:40px;
+    text-align: left;
+    margin-top: 40px;
+}
+span{
+    background-color: #ff894f;
+    padding: 7px;
+    border-radius: 10px;
+    color: black;
+}
+.imgContanier{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.imgContanier img{
+    width: 101%;
+}
+.burgers{
+    height: 140vh;
+    background-color: #3e3e3e;
+}
+
+.menuContanier1,.menuContanier2{
+    width: 90%;
+    height: 50%;
+    padding-top: 30px;
+    margin-top: 0;
+    margin: auto;
+}
+
+.burger1,.burger2,.burger3,.burger4{
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+}
+.burger2{
+    float: right;
+}
+.burger2 .imgBurger2{
+ background-color: black;
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+.burger2 .imgBurger2 img{
+    width: 100%;
+}
+.burger4{
+   
+    float: right;
+}
+.imgBurger1{
+    background-color: black;
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.imgBurger1 img{
+    width: 100%;
+}
+.burger1Text{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.burger1Text h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.burgerList{
+    width: 90%;
+    height: 20%;
+    margin: auto;
+    text-align: left;
+    padding-left: 0;
+}
+.burgerList ul li {
+    list-style: square;
+    display: inline-block;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    color: white;
+}
+.book{
+    height: 80vh;
+    background-color: #73281a;
+}
+.bookItem{
+ 
+    height: 100%;
+    width: 45%;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.bookItem h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-top: 0;
+    color: white;
+    font-weight: 100;
+    padding-top: 40px;
+}
+.form{
+    height: 80%;
+    width: 70%;
+    margin: auto;
+}
+.namediv,.numPop,.date ,.message{
+
+    height: 10%;
+    width: 100%;
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 20px;
+    font-weight: 100;
+}
+.message{
+    height: 30%;
+}
+.form input{
+    width: 100%;
+    height: 60%;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+    margin-top: 10px;
+}
+.form textarea{
+    width: 100%;
+    height: 60%;
+    margin-top: 10px;
+    border-radius: 5px;
+    resize: none;
+    margin-bottom: 0;
+}
+button{
+    width: 100%;
+    height: 8%;
+    background-color: transparent;
+    border-radius: 10px;
+    border:2px solid white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+}
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: #3e3e3e;
+    margin-top: 0;
+    text-align: center;
+}
+footer div p{
+    margin-top: 0;
+    padding-top: 20px;
+    color: white;
+}
